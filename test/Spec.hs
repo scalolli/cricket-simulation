@@ -16,3 +16,6 @@ main = hspec $ do
             (length $ filter (==2) values) `shouldBe` 0
             (length $ filter (==1) values) `shouldBe` 0
 
+    describe "Game Simulation" $ do
+        it "simulate game for one over" $ do
+            1 `shouldBe` 1
